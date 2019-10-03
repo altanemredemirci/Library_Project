@@ -13,7 +13,7 @@ namespace LibraryProject.Model.ORM.Context
     {
         public ProjectContext()
         {
-            Database.Connection.ConnectionString = "Server=.;Database=Library;UID=burak;PWD=112358;";
+            Database.Connection.ConnectionString = "Server=.;Database=Library;UID=sa;PWD=9117;";
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
